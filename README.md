@@ -6,14 +6,17 @@
 
 ## INDEX
 - [Preparations](https://github.com/cliche90/reactjs_sample#preparations)
+- [Install Packages](https://github.com/cliche90/reactjs_sample#install--packages)
 
 ## Preparations
 1. Git
 2. NodeJS / NPM
 3. MongoDB
 
-## Git Repository Clone & Checkout
+## Install Packages
 
-- 초기 상태에서 강의를 보며 진행하기 위해 [velopert 님의 repository](https://github.com/velopert/react-codelab-project.git) 를 folk 한 후에 사용했습니다.
+- 초기 상태에서 강의를 보며 진행하기 위해 [velopert 님의 repository](https://github.com/velopert/react-codelab-project.git) 를 fork 한 후에 사용하려고 했으나, 편의상 새로운 Repository 를 생성하였습니다.
 
-        git clone https://github.com/cliche90/react-codelab-project.git
+        npm install -g babel webpack webpack-dev-server
+        npm install --save react react-dom
+        npm install --save-dev babel-core babel-loader babel-preset-react babel-preset-es2015 webpack webpack-dev-server
