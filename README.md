@@ -34,5 +34,4 @@
 - mongoose: mongodb 데이터 모델링 툴
 - express-session: express 에서 세션 사용시 사용되는 미들웨어
 
-
-
+## Backend : 계정인증 구현
