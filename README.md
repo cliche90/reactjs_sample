@@ -6,7 +6,7 @@
 
 ## INDEX
 - [Preparations](https://github.com/cliche90/reactjs_sample#preparations)
-- [Install Packages](https://github.com/cliche90/reactjs_sample#install--packages)
+- [Install Packages](https://github.com/cliche90/reactjs_sample#install-packages)
 
 ## Preparations
 1. Git
