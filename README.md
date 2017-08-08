@@ -3,6 +3,7 @@
 > 본 내용은 Velopert 님의 BLOG 포스팅 중 React.js Codelab 2016 부분을 개인적으로 보고자 정리한 글과 소스입니다.
 
 - [Velopert 님 BLOG Codelab](https://velopert.com/1980)
+- [Veloport 님 React.js Codelab Repository ](https://github.com/velopert/react-codelab-project)
 
 ## INDEX
 - [Preparations](https://github.com/cliche90/reactjs_sample#preparations)
