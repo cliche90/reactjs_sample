@@ -1,13 +1,21 @@
-let WebpackDevServer = require('webpack-dev-server');
-let webpack = require('webpack');
-let express = require('express');
-let path = require('path');
+import WebpackDevServer from 'webpack-dev-server';
+import webpack from 'webpack';
+import express from 'express';
+import path from 'path';
+import api from './routes'
 
 const app = express();
 const port = 3000;
 const devPort = 4000;
 
 app.use('/', express.static(path.join(__dirname, './../public')));
+app.use('/api', api);
+
+// Error Handling
+app.use(function(err, req, res, next) {
+    console.err(err.stack);
+    req.status(500).send("Something broken!")
+})
 
 app.get('/hello', (req, res) => {
     return res.send('Hello Codelab');

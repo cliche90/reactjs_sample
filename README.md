@@ -35,3 +35,33 @@
 - express-session: express 에서 세션 사용시 사용되는 미들웨어
 
 ## Backend : 계정인증 구현
+
+    npm install --save bcryptjs
+
+- model/account.js 에서 Account.methods 를 만들 때, Arrow function 을 사용하면 this binding 오류 발생
+
+## Backend : 메모 작성 / 수정 / 삭제 / 읽기 구현
+
+## Webpack 추가 설정
+
+> webpack.config.js & webpack.dev.config.js
+
+
+    var path = requre('path');
+
+        resolve: {
+            root: path.resolve('./src')
+        }
+
+
+- 모듈 추가 설치
+
+    npm install --save axios react-addons-update react-router react-timeago redux react-redux redux-thunk
+
+
+- axios: HTTP 클라이언트
+- react-addon-update: Immutability Helper (Redux의 store 값 변경에 사용)
+- react-router: 클라이언트 사이드 라우터
+- react-timeago: 시간 계산을 통해 3 minute ago 와 같이 계산해주는 React 컴포넌트
+- redux, react-redux: FLUX 구현체, 뷰 레이어 바인딩
+- redux-thunk: redux의 action creator 에서 함수를 반환할 수 있게 해주는 redux 미들웨어, 비동기 작업 처리에 사용

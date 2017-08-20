@@ -1,4 +1,5 @@
 var webpack = require('webpack');
+var path = requre('path');
 
 module.exports = {
 
@@ -62,4 +63,8 @@ module.exports = {
             }
         ]
     },
+
+    resolve: {
+        root: path.resolve('./src')
+    }
 };
