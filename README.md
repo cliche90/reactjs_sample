@@ -54,7 +54,8 @@
         }
 
 
-- 모듈 추가 설치
+> 모듈 추가 설치
+
 
     npm install --save axios react-addons-update react-router react-timeago redux react-redux redux-thunk
 
